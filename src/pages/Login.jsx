@@ -7,8 +7,6 @@ const Login = () => {
                 <h2 className="text-2xl font-bold text-center text-gray-700">Login</h2>
 
                 <form className="space-y-4">
-
-
                     {/* Email input */}
                     <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-600">Email Address</label>
@@ -29,6 +27,11 @@ const Login = () => {
                             placeholder="Enter your password"
                             className="w-full p-3 mt-1 bg-gray-300 text-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         />
+                    </div>
+
+                    {/* Forgot Password link */}
+                    <div className="flex justify-end">
+                        <a href="#" className="text-sm text-blue-500 hover:text-blue-700">Forgot Password?</a>
                     </div>
 
                     {/* Login button */}
