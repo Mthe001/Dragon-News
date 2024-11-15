@@ -8,7 +8,7 @@ Let's build the project together. 😎
 
 ## Table of Contents 📑
 
-- [Features](#features)
+- [Features](#Features ✨)
 - [Technologies Used](#technologies-used)
 - [API Documentation](#api-documentation)
 - [Layout Documentation](#layout-documentation)
