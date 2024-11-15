@@ -108,7 +108,7 @@ The News-Details Layout provides full access to a specific article, displaying d
 
 **News Details Layout Example Image:**
 
-![News Details Layout](https://yourimageurl.com/news-details-layout.jpg)
+![News Details Layout](https://github.com/ProgrammingHero1/dragon-news-resources/blob/main/design/news-details-layout.png)
 
 ---
 
@@ -122,8 +122,8 @@ The Auth Layout manages user authentication with login and signup forms. The use
 
 **Auth Layout Example Image:**
 
-![Auth Layout](https://yourimageurl.com/auth-layout.jpg)
-
+![Auth Layout](https://github.com/ProgrammingHero1/dragon-news-resources/blob/main/design/auth-layout-login.png)
+![Auth Layout](https://github.com/ProgrammingHero1/dragon-news-resources/blob/main/design/auth-layout-register.png)
 ---
 
 ## How to Run the Project 🚀
