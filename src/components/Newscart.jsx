@@ -1,16 +1,3 @@
-// import React from 'react';
-
-// const Newscart = ({ news }) => {
-//     console.log(news)
-//     return (
-//         <div>
-//             <h1>{news.title}</h1>
-
-//         </div>
-//     );
-// };
-
-// export default Newscart;
 
 import React from 'react';
 import { FaEye, FaStar, FaShareAlt, FaBookmark } from 'react-icons/fa';
@@ -18,7 +5,7 @@ import { FaEye, FaStar, FaShareAlt, FaBookmark } from 'react-icons/fa';
 const NewsCart = ({ news }) => {
     return (
         <div className="card bg-base-100 shadow-md border rounded-lg p-4 space-y-4">
-            {/* Header with author and date */}
+
             <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                     <img
@@ -37,21 +24,16 @@ const NewsCart = ({ news }) => {
                 </div>
             </div>
 
-            {/* Title */}
             <h2 className="text-lg font-bold">{news.title}</h2>
 
-            {/* Image */}
             <img src={news.image_url} alt="News" className="w-full h-96 object-cover rounded-lg" />
 
-            {/* Details */}
             <p className="text-sm text-gray-600">
                 {news.details.substring(0, 150)}...
                 <span className="text-primary font-semibold cursor-pointer"> Read More</span>
             </p>
 
-            {/* Footer with rating and views */}
             <div className="flex items-center justify-between text-sm text-gray-500">
-                {/* Rating */}
                 <div className="flex items-center space-x-1">
                     <div className="flex text-yellow-500">
                         {[...Array(5)].map((_, index) => (
@@ -61,7 +43,6 @@ const NewsCart = ({ news }) => {
                     <span className="font-semibold ml-1">{news.rating.number}</span>
                 </div>
 
-                {/* Views */}
                 <div className="flex items-center space-x-1">
                     <FaEye />
                     <span>{news.total_view}</span>
